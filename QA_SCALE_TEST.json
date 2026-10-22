@@ -1,0 +1,46 @@
+{
+  "status": {
+    "status": "COMPLETE",
+    "phase": "DONE",
+    "job_id": "5c47489221b964130a69",
+    "updated_at": "2026-10-21T15:28:52.165777+00:00",
+    "message": "Finite study complete; read all scope/coverage limits before interpreting the selected model.",
+    "run": "/mnt/data/v21_scale_job/runs/5c47489221b964130a69",
+    "verdicts": {
+      "5": "SYNTHETIC_ENGINE_TEST_NOT_PERFORMANCE",
+      "20": "SYNTHETIC_ENGINE_TEST_NOT_PERFORMANCE",
+      "60": "SYNTHETIC_ENGINE_TEST_NOT_PERFORMANCE"
+    },
+    "done": 1,
+    "total": 1
+  },
+  "data_kind": "SYNTHETIC_ENGINE_SCALE_TEST_NOT_FINANCIAL_PERFORMANCE",
+  "stocks_excluding_benchmark": 520,
+  "sessions": 2200,
+  "rows": 1146200,
+  "pool_sizes": [
+    100,
+    200,
+    300,
+    500
+  ],
+  "candidate_profiles": 64,
+  "horizons": [
+    5,
+    20,
+    60
+  ],
+  "fixture_creation_seconds": 0.0,
+  "pipeline_seconds": 34.79,
+  "peak_process_rss_mb": 291.7,
+  "outer_folds": {
+    "5": 7,
+    "20": 5,
+    "60": 5
+  },
+  "verdicts": {
+    "5": "SYNTHETIC_ENGINE_TEST_NOT_PERFORMANCE",
+    "20": "SYNTHETIC_ENGINE_TEST_NOT_PERFORMANCE",
+    "60": "SYNTHETIC_ENGINE_TEST_NOT_PERFORMANCE"
+  }
+}
